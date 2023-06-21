@@ -60,6 +60,7 @@ img{
 
 .proj{
   display: inline-block;
+  width: 20%;
   padding: .5em 2.5em;
   background: var(--coloraccent);
   color: var(--color-dark);
@@ -72,6 +73,24 @@ img{
 }
 
 .proj:hover {
+  transform: scale(1.05);
+}
+
+.copy{
+  display: inline;
+  padding: .2em 0.5em;
+  margin: 50px 0px 0px 10px;
+  background: var(--coloraccent);
+  color: var(--color-dark);
+  text-decoration: none;
+  cursor: .8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: var(--fontsize-body);
+  transition: transform 200ms ease-in-out;
+}
+
+.copy:hover{
   transform: scale(1.05);
 }
 

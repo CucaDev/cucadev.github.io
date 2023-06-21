@@ -11,3 +11,10 @@ navLinks.forEach(link => {
     document.body.classList.remove('nav-open');
   });
 });
+
+function copyText() {
+      
+  /* Copia o texto */
+  navigator.clipboard.writeText
+      ("contatocarmo777@gmail.com");
+}
